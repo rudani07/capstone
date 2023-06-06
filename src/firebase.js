@@ -1,18 +1,19 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+import { signInWithEmailLink, getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDsA4EjydHby7iID0n_o1F9u0MrcY7300I",
-  authDomain: "e-commerce-website-9c8ab.firebaseapp.com",
-  projectId: "e-commerce-website-9c8ab",
-  storageBucket: "e-commerce-website-9c8ab.appspot.com",
-  messagingSenderId: "899151877732",
-  appId: "1:899151877732:web:a36efe666c11916be53171"
+  apiKey: "AIzaSyDsYhIYllivVtXAxdCwvbLbSdX0NEdI5CE",
+  authDomain: "ecommerce-c21ce.firebaseapp.com",
+  projectId: "ecommerce-c21ce",
+  storageBucket: "ecommerce-c21ce.appspot.com",
+  messagingSenderId: "610618113937",
+  appId: "1:610618113937:web:bd7ad132ffcc8b0235e430",
+  measurementId: "G-Z0CDF5G7GY",
 };
 
 // Initialize Firebase
